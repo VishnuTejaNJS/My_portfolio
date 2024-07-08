@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- cdn Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./portfolio-removebg-preview.png">
+    <title>My_Portfolio</title>
+    <!-- Styling link -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Header Design -->
+     <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#tool">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Me</a>
+      </nav>
+    </header>
+    <!--Home section Design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, I'm</h3>
+        <h1>Vishnu Teja N J S</h1>
+        <h3>And I'm a <span>Frontend Developer.</span></h3>
+        <p>Aspiring Frontend Developer. Enthusiastic towards Developing new websites.</p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/vishnu.teja.16718"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/vishnutejanjs/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/VishnuTejaNJS?tab=repositories"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/vishnu-teja-n-j-s-429421103/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="" class="btn">Download Resume</a>
+      </div>
+      <div class="home-image">
+        <img src="./My_pic-removebg-preview.png" alt="">
+      </div>
+    </section>
+    <!-- About section design -->
+    <section class="about" id="about">
+      <div class="about-image">
+        <img src="./front end dev.webp" alt="">
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>I'm Frontend Developer based in Chittoor of Andhra Pradesh, India. I'm focussed on developing Innovative Websites.</p>
+        <p>I believe Web design can be more diverse and inspiring.</p>
+        <!-- <p class="paragraph">Born on 1995. Likes to Travel and play Chess. Enthusiastic to learn new skills and work on it. Good Team Player. Worked and Developed websites like "Algolia(Search Engine)", "Voice-bot", "Restaurant" & "Furnifuture".</p> -->
+        <a href="#about" id="read-more" class="btn">Read More</a>
+      </div>
+    </section>
+    <!-- Tools section design -->
+    <section class="tool" id="tool">
+      <div class="tool-content">
+        <h2 class="tool">Skills</h2>
+      </div>
+      <div class="tool-content-image">
+        <img src="./Html_img.png" alt="">
+        <img src="./css_img.png" alt="">
+        <img src="./java_img.png" alt="">
+        <img src="./react_img.png" alt="">
+      </div>
+    </section>
+    <!-- Portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="./algolia_img.png" alt="">
+          <div class="portfolio-layer1">
+            <h4>Algolia Search</h4>
+            <p>This is the search Engine project with name "Algolia". Developed with HTML, CSS and JavaScript.</p>
+            <!-- <p>It searches the products according to the commands used inside the Search bar. With the help of API we gonna recieve the details of the products.</p> -->
+            <a href="#portfolio" id="read-more1" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./voice-bot_img.png" alt="">
+          <div class="portfolio-layer2">
+            <h4>Voice-bot</h4>
+            <p>This is the basic Voice-bot project with name "NJS-Voicebot". Developed with HTML, CSS and JavaScript.</p>
+            <!-- <p>This project is exact replica of "Alexa". With the help of voice commands it works. To make it functional we should click on the button and pass the commands like "Open Google".</p> -->
+            <a href="#portfolio" id="read-more2" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./furnifuture_img.png" alt="">
+          <div class="portfolio-layer3">
+            <h4>Furnifuture</h4>
+            <p>This project named with "Furnifuture" which is exact replica of "Furniture Website". Developed with HTML and CSS.</p>
+            <!-- <p>In this project we have designed the exact replica of the furniture website. By clicking the 'Explore Now' button it navigates to the page in which ther we can find the sections like 'Product details','Colors-available','Customers Feedback' and 'Ratings'.</p> -->
+            <a href="#portfolio" id="read-more3" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Me section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email-ID">
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile-Number">
+          <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+    <!-- Footer section design -->
+     <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by @heresthecode | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+     </footer>
+     
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
